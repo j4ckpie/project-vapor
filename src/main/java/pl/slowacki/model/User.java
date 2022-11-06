@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class User {
     private String name;
-    private String[] library;
+    private Game[] library;
     private Date dateOfRegistration;
     private double balance;
 
@@ -16,11 +16,11 @@ public class User {
         this.name = name;
     }
 
-    public String[] getLibrary() {
+    public Game[] getLibrary() {
         return library;
     }
 
-    public void setLibrary(String[] library) {
+    public void setLibrary(Game[] library) {
         this.library = library;
     }
 
