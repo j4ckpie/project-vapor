@@ -12,6 +12,7 @@ public class Game {
     private Date dateOfPublication;
     private double price;
     private double rating;
+    private String systemRequirements;
 
     public String getName() {
         return name;
@@ -83,5 +84,13 @@ public class Game {
 
     public void setRating(double rating) {
         this.rating = rating;
+    }
+
+    public String getSystemRequirements() {
+        return systemRequirements;
+    }
+
+    public void setSystemRequirements(String systemRequirements) {
+        this.systemRequirements = systemRequirements;
     }
 }
