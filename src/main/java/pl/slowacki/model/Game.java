@@ -7,7 +7,7 @@ public class Game {
     private String description;
     private String developer;
     private String publisher;
-    private String tag;
+    private String[] tags;
     private Review[] reviews;
     private Date dateOfPublication;
     private double price;
@@ -45,12 +45,12 @@ public class Game {
         this.publisher = publisher;
     }
 
-    public String getTag() {
-        return tag;
+    public String[] getTag() {
+        return tags;
     }
 
-    public void setTag(String tag) {
-        this.tag = tag;
+    public void setTag(String[] tags) {
+        this.tags = tags;
     }
 
     public Review[] getReviews() {
