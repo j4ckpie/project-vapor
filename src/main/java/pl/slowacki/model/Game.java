@@ -1,5 +1,7 @@
 package pl.slowacki.model;
 
+import java.util.Date;
+
 public class Game {
     private String name;
     private String description;
@@ -7,7 +9,7 @@ public class Game {
     private String publisher;
     private String tag;
     private Review[] reviews;
-    private int yearOfPublication;
+    private Date dateOfPublication;
     private double price;
     private double rating;
 
@@ -59,12 +61,12 @@ public class Game {
         this.reviews = reviews;
     }
 
-    public int getYearOfPublication() {
-        return yearOfPublication;
+    public Date getDateOfPublication() {
+        return dateOfPublication;
     }
 
-    public void setYearOfPublication(int yearOfPublication) {
-        this.yearOfPublication = yearOfPublication;
+    public void setDateOfPublication(Date dateOfPublication) {
+        this.dateOfPublication = dateOfPublication;
     }
 
     public double getPrice() {

@@ -1,9 +1,11 @@
 package pl.slowacki.model;
 
+import java.util.Date;
+
 public class User {
     private String name;
     private String[] library;
-    private int yearOfRegistration;
+    private Date dateOfRegistration;
     private double balance;
 
     public String getName() {
@@ -22,12 +24,12 @@ public class User {
         this.library = library;
     }
 
-    public int getYearOfRegistration() {
-        return yearOfRegistration;
+    public Date getDateOfRegistration() {
+        return dateOfRegistration;
     }
 
-    public void setYearOfRegistration(int yearOfRegistration) {
-        this.yearOfRegistration = yearOfRegistration;
+    public void setDateOfRegistration(Date dateOfRegistration) {
+        this.dateOfRegistration = dateOfRegistration;
     }
 
     public double getBalance() {
