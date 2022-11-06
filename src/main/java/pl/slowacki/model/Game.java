@@ -6,7 +6,7 @@ public class Game {
     private String developer;
     private String publisher;
     private String tag;
-    private String[] reviews;
+    private Review[] reviews;
     private int yearOfPublication;
     private double price;
     private double rating;
@@ -51,11 +51,11 @@ public class Game {
         this.tag = tag;
     }
 
-    public String[] getReviews() {
+    public Review[] getReviews() {
         return reviews;
     }
 
-    public void setReviews(String[] reviews) {
+    public void setReviews(Review[] reviews) {
         this.reviews = reviews;
     }
 
