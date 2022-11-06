@@ -5,8 +5,8 @@ import java.util.Date;
 public class Game {
     private String name;
     private String description;
-    private String developer;
-    private String publisher;
+    private Developer developer;
+    private Publisher publisher;
     private String tag;
     private Review[] reviews;
     private Date dateOfPublication;
@@ -29,19 +29,19 @@ public class Game {
         this.description = description;
     }
 
-    public String getDeveloper() {
+    public Developer getDeveloper() {
         return developer;
     }
 
-    public void setDeveloper(String developer) {
+    public void setDeveloper(Developer developer) {
         this.developer = developer;
     }
 
-    public String getPublisher() {
+    public Publisher getPublisher() {
         return publisher;
     }
 
-    public void setPublisher(String publisher) {
+    public void setPublisher(Publisher publisher) {
         this.publisher = publisher;
     }
 
